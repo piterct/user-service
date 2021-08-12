@@ -1,6 +1,8 @@
-﻿namespace User.Service.Shared.Commands
+﻿using Flunt.Validations;
+
+namespace User.Service.Shared.Commands
 {
-    public interface ICommand
+    public interface ICommand : IValidatable
     {
     }
 }
