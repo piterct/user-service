@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Result\" />
     <Folder Include="Entities\" />
     <Folder Include="Mapping\ItemsWeb\" />
     <Folder Include="Enum\" />

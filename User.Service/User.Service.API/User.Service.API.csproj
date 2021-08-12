@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\User.Service.Domain\User.Service.Domain.csproj" />
   </ItemGroup>
 
 
